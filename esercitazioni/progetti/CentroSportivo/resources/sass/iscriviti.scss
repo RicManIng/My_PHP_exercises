@@ -1,0 +1,65 @@
+@import "standard";
+@import "configParam";
+
+main{
+    width: 100%;
+    min-height: 90vh;
+    background-image: url('../img/pexels-el-gringo-photo-116752370-10183955.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    form, .container{
+        width:80%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        gap: 50px;
+        background-color: $iscriviti_bgColor;
+        border-radius: 10px;
+        color: white;
+
+        input{
+            padding: 15px;
+            border-radius: 10px;
+            background-color: black;
+            font-size: 1rem;
+            color: rgb(198, 198, 198);
+        }
+
+        input[type="submit"]{
+            background-color: $btn_colorUnpressed;
+            color: black;
+
+            &:hover{
+                background-color: $btn_colorPressed;
+                color: white;
+            }
+        }
+
+        h1, p, a{
+            text-align: center;
+        }
+
+        a{
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            background-color: $login_link_bgColor;
+
+            &:hover{
+                background-color: $login_link_bgColorPressed;
+                color: white;
+            }
+        }
+
+        .errors{
+            color: red;
+        }
+    }
+}

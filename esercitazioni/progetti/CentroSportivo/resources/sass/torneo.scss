@@ -1,0 +1,55 @@
+@import "standard";
+@import "configParam";
+
+main {
+    min-height: 90vh;
+    background-image: url('../img/pexels-furknsaglam-1596977-3131406.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    section {
+        background-color: $torneo_bgColor;
+        width: 80vh;
+        max-width: 800px;
+        padding: 40px;
+        margin: 10vh 0px;
+        border-radius: 20px;
+
+        h1{
+            text-align: center;
+            color: white;
+        }
+    
+        div{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            padding: 20px;
+            border-radius: 15px;
+
+            .first{
+                border-bottom: 1px solid darkgray;
+                padding-bottom: 20px;
+            }
+
+            p{
+                color: $torneo_contentColor;
+            }
+
+            .second{
+                padding-top: 20px;
+            }
+        }
+
+        h4{
+            color: white;
+            margin: 20px 0px;
+            text-align: center;
+        }
+    }
+}

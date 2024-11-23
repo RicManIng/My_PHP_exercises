@@ -1,0 +1,53 @@
+@import "standard";
+@import "configParam";
+
+main {
+    height: 90vh;
+    width: 100%;
+    background-image: url('../img/pexels-jsalamanca-61143.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    div{
+        width: 80%;
+        max-width: 500px;
+        padding: 40px;
+        background-color: rgba(0, 0, 0, 0.735);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8vh;
+
+        h1, p{
+            color: white;
+        }
+
+        h1, p, a{
+            text-align: center;
+        }
+
+        a {
+            background-color: $btn_colorUnpressed;
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+            border-radius: 5px;
+
+            &:hover{
+                background-color: $btn_colorPressed;
+                color: white;
+            }
+        }
+
+        p, a {
+            font-size: 1rem;
+        }
+    }
+}
+

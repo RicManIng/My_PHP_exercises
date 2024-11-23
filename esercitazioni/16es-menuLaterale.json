@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nome": "Giallo",
+        "link": "16es-MenuJSON.php",
+        "title": "Vai alla pagina giallo"
+    },
+    {
+        "id": 2,
+        "nome": "Rosso",
+        "link": "16es-MenuJSON.php",
+        "title": "Vai alla pagina rosso"
+    },
+    {
+        "id": 3,
+        "nome": "Verde",
+        "link": "16es-MenuJSON.php",
+        "title": "Vai alla pagina verde"
+    },
+    {
+        "id": 4,
+        "nome": "Blu",
+        "link": "16es-MenuJSON.php",
+        "title": "Vai alla pagina blu"
+    },
+    {
+        "id": 5,
+        "nome": "Arancione",
+        "link": "16es-MenuJSON.php",
+        "title": "Vai alla pagina arancione"
+    }   
+]

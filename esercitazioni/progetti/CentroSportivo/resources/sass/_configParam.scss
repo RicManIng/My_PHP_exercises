@@ -1,0 +1,47 @@
+/* parametri per i bottoni */
+$btn_colorUnpressed: rgb(0, 255, 0);
+$btn_colorPressed: rgb(0, 82, 0);
+
+/* parametri testo */
+$txt_size: 1rem;
+$txt_delta: 0.2rem;
+$txt_family: 'Arial', sans-serif;
+
+/* parametri per bottoni speciali */
+/* Sign Up */
+$btn_sup_colorUnpressed: rgb(156, 156, 156);
+$btn_sup_colorPressed: rgb(74, 74, 74);
+
+/* nav bar */
+$nav_bgColor: rgb(30, 28, 28);
+$navLink_setBgColor: rgb(0, 92, 0);
+$navLink_Pressed: rgb(0, 211, 0);
+
+/* footer */
+$footer_bgColor: rgb(23, 23, 23);
+
+/* contatti */
+$contatti_bgColor: rgba(0, 41, 0, 0.899);
+
+/* login */
+$login_bgColor: rgba(0, 41, 0, 0.899);
+$login_link_bgColor: rgb(102, 102, 255);
+$login_link_bgColorPressed: darkblue;
+
+/* logout */
+$logout_bgColor: rgb(255, 86, 86);
+$logout_bgColorPressed: rgb(82, 0, 0);
+
+/* iscriviti */
+$iscriviti_bgColor: rgba(16, 16, 16, 0.931);
+
+/* my_team */
+$my_team_bgColor: rgb(0, 70, 0);
+$my_team_section_bgColor: rgb(24, 24, 24);
+$my_team_content_color: darkgray;
+$my_team_delete_bgColor: rgb(255, 71, 71);
+$my_team_delete_bgColorPressed: rgb(82, 0, 0);
+
+/* torneo */
+$torneo_bgColor: rgba(16, 16, 16, 0.931);
+$torneo_contentColor: darkgray;
